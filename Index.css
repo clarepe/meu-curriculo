@@ -1,0 +1,38 @@
+body {
+
+    background-color: rgb(248, 233, 212);
+}
+
+h1 {
+    margin-left: 112px;
+    margin-right: 112px;
+    color: rgb(187, 92, 92);
+}
+
+h2 {
+
+    margin-left: 112px;
+    margin-right: 112px;
+    font-family: Tahoma, sans-serif;
+    color: coral
+}
+
+ul {
+    margin-left: 112px;
+    margin-right: 112px;
+    font-size: 14px;
+}
+
+hr {
+    margin-left: 112px;
+    margin-right: 112px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+footer {
+    margin-left: 112px;
+    margin-right: 112px;
+}
