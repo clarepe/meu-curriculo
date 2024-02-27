@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="Index.css">
 </head>
 
@@ -12,15 +13,20 @@
 
 <body>
     <header>
-        <h1>Claudiney Clayton de Oliveira</h1>
-        <marquee behavior="" direction="">Agora você vai me conhecer um Pouco</marquee>
+        <section id="Nome">
+            <h1 >Claudiney Clayton de Oliveira</h1>
+            <!-- <img src="https://scontent.fcgh4-1.fna.fbcdn.net/v/t39.30808-6/430204541_24796774776635718_1648748152235921078_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHWbhbONTWF0aSn1ws4UdSXU1NufSdwPalTU259J3A9qbcLIrZ7PxQyK9vNvdijPl6i-Yx4iHDvhPBuoTCtVfVo&_nc_ohc=VNAEZ3hvo2sAX8erPc5&_nc_zt=23&_nc_ht=scontent.fcgh4-1.fna&cb_e2o_trans=t&oh=00_AfAbavF95__MyLKDoaeG0YEZRm9jGABQsKGbg8PbRtzlsQ&oe=65E394E8" alt=""> -->
+            
+ 
+        </section>
     </header>
     <main>
-        <section>
 
-            <h2>Apresentação</h2>
-            
-            <hr>
+
+        <h2 class="tituloSecao">Apresentação</h2>
+
+
+        <section id="Apresentacao">
             <ul>
                 <li>
                     Sou Brasileiro, 45 anos, <b>Casado</b> há 18 anos com a mais linda <b>Mulher</b> do mundo!.
@@ -43,9 +49,11 @@
 
             </ul>
         </section>
-        <section>
-            <h2>Formação</h2>
-            <hr>
+
+        <h2 class="tituloSecao">Formação</h2>
+
+
+        <section id="Formacao">
             <ul>
                 <li>
                     Ensino médio.
@@ -59,84 +67,88 @@
                         Ford-Enter</b>
                 </li>
             </ul>
+
         </section>
-        <section>
-            <h2>Experiência Profissional</h2>
-            <hr>
-            <ul>
 
-                <li>
-                    Empresa : Asa (VIVO)
-                <li>
-                    Função : Mensageniro
-                </li>
-                </li>
+        <h2 class="tituloSecao">Experiência Profissional</h2>
+        <section id="ExperienciaProfissional"></section>
 
 
-            </ul>
-            <ul>
-                <li>
-                    Empresa : Master Company
-                <li>
-                    Função : Instrutor de Informatica Básica
-                </li>
-                </li>
-            </ul>
+        <ul>
+
+            <li>
+                Empresa : Asa (VIVO)
+            <li>
+                Função : Mensageniro
+            </li>
+            </li>
+
+
+        </ul>
+        <ul>
+            <li>
+                Empresa : Master Company
+            <li>
+                Função : Instrutor de Informatica Básica
+            </li>
+            </li>
+        </ul>
         </section>
-        <h2>Competências Técnicas</h2>
-        <hr>
+
+        <h2 class="tituloSecao">Competências Técnicas</h2>
+
+        <section id="competenciaTecnicas"></section>
         <ul>
             <li> <b>Linguagens em nível básico: </b> HTML \ CSS \ JavaScript\ C# \ Pyton. </li>
             <li><b>Motores Graficos e Apps em nível básico:</b> Unity \ Blender\ Photoshop\ Microsoft 365. </li>
 
         </ul>
-        </section>
-        <section>
-            <h2>Competências socio-emocionais</h2>
-            <hr>
-
-            <ul>
-                <li>Trabalho em equipe </li>
-                <li>Organizado</li>
-                <li>Simpatia e empatia com Todos</li>
-                <li>Senso de autoresponsabilidade</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Idiomas</h2>
-            <hr>
-            <table>
-
-                <tr> <!--  comando para linha de tabela -->
-                    <th> <!--  comando para linha de campo  de tabela -->
-                        <b>Idioma</b>
-                    </th>
-                    <td> <!--  comando para linha de celula ou dado de tabela -->
-                        <b>Nível</b>
-                    </td>
-
-                </tr>
-                <tr>
-                    <td>Português (BR)</td>
-                    <td>Nativo</td>
-                </tr>
-                <tr>
-                    <td>Inglês</td>
-                    <td>Estudante Inicial</td>
-                </tr>
-
-            </table>
 
         </section>
-        <section>
-            <h2>Destaques</h2>
-            <hr>
-            <ul>
-                <li>Já Trabalhei em Ongs na minha região</li>
-                <li>Fiz por conta propria Eventos Sociais </li>
-                <li>Trabalho com Manutenção de Hardware</li>
-            </ul>
-        </section>
+        <h2 class="tituloSecao">Competências socio-emocionais</h2>
+
+        <section id="CompetenciasSociosEmocionais"></section>
+
+        <ul>
+            <li>Trabalho em equipe </li>
+            <li>Organizado</li>
+            <li>Simpatia e empatia com Todos</li>
+            <li>Senso de autoresponsabilidade</li>
+        </ul>
+
+        <h2 class="tituloSecao">Idiomas</h2>
+        <hr>
+        <table>
+
+            <tr> <!--  comando para linha de tabela -->
+                <th> <!--  comando para linha de campo  de tabela -->
+                    <b>Idioma</b>
+                </th>
+                <td> <!--  comando para linha de celula ou dado de tabela -->
+                    <b>Nível</b>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Português (BR)</td>
+                <td>Nativo</td>
+            </tr>
+            <tr>
+                <td>Inglês</td>
+                <td>Estudante Inicial</td>
+            </tr>
+
+        </table>
+
+
+        <h2 class="tituloSecao">Destaques</h2>
+        <hr>
+        <ul>
+            <li>Já Trabalhei em Ongs na minha região</li>
+            <li>Fiz por conta propria Eventos Sociais </li>
+            <li>Trabalho com Manutenção de Hardware</li>
+        </ul>
+
     </main>
     <hr>
     <footer>
