@@ -5,52 +5,70 @@
 
  body {
     width: 80vw;
-    height: 50vw;
+    /* height: 50vw; */
     margin: auto;
-    background: rgb(59, 27, 27);
+    background-color: #111210;
     color: white;
     padding: 0%;
+    margin-top: 22px;
+    font-weight: 200px;
+ }
+ p{
+   line-height: 1.5;
  }
 
  .tituloSecao {
 
-    background-color: rgb(0, 255, 132);
+    background-color: #FFFF00;
     color: black;
-    padding-left: 12px;
+    border-radius: 23px;
+    font-size: 1rem;
+    border: 1px solid rgb(212, 120, 28);
+    margin: 1rem ;
+    padding: 1rem;
  }
 
  #Nome {
     /* display: flex; */
     /* flex-direction: row; */
-    background-color: rgb(163, 114, 54);
+    background-color: #B22222;
     /* margin-right: 100px; */
     /* Adicione o espaçamento desejado */
     font-size: 45px;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    border: 2px solid white;
  }
 
  #Apresentacao {
-    background-color: rgb(33, 59, 43);
-    padding-left: 20px;
-    
+    background-color: #E9967A;
+
+
  }
 
  #Formacao {
-    background-color: rgb(33, 59, 43);
-    padding-left: 20px;
-    padding: 0%;
+    background-color: #E9967A;
+
  }
 
- #Experiencia, ul, li{
-    background-color: rgb(33, 59, 43);
-    padding-left: 20px;
+ #Experiencia,
+ ul,
+ li {
+    background-color: #E9967A;
+
  }
 
  #competenciaTecnicas {
-    background-color: rgb(33, 59, 43);
-    padding-left: 20px;
+    background-color: #E9967A;
+
  }
- #CompetenciasSociosEmocionais{
-   background-color: rgb(33, 59, 43);
-   padding-left: 20px;
+
+ #CompetenciasSociosEmocionais {
+    background-color: #E9967A;
+
  }
- 
+
+ #linguas {
+    background-color: #E9967A;
+
+ }
