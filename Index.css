@@ -1,74 +1,102 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=McLaren&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
- /*  font-family: "McLaren", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Londrina+Outline&family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+/*  font-family: "McLaren", sans-serif; */
 
- body {
-    width: 80vw;
-    /* height: 50vw; */
-    margin: auto;
-    background-color: #111210;
-    color: white;
-    padding: 0%;
-    margin-top: 22px;
-    font-weight: 200px;
- }
- p{
+body {
+   width: 80vw;
+   /* height: 50vw; */
+   margin: auto;
+   background-color: #c61059;
+   color: white;
+   padding: 0%;
+   margin-top: 22px;
+   font-weight: 200px;
+}
+
+p {
    line-height: 1.5;
- }
+   margin: 1rem 0;
+}
 
- .tituloSecao {
+h2 {
+   font-family: "McLaren", sans-serif;
+   font-size: 1.5rem;
+   font-weight: 300;
+   text-transform: uppercase;
+   margin: 1rem 0;
+   border: 1px solid rgb(255, 255, 255);
+}
 
-    background-color: #FFFF00;
-    color: black;
-    border-radius: 23px;
-    font-size: 1rem;
-    border: 1px solid rgb(212, 120, 28);
-    margin: 1rem ;
-    padding: 1rem;
- }
+.tituloSecao {
 
- #Nome {
-    /* display: flex; */
-    /* flex-direction: row; */
-    background-color: #B22222;
-    /* margin-right: 100px; */
-    /* Adicione o espaçamento desejado */
-    font-size: 45px;
-    border-radius: 25px 25px 0px 0px;
-    text-align: center;
-    border: 2px solid white;
- }
+   background-color: #FFFF00;
+   color: black;
+   border-radius: 23px;
+   font-size: 1rem;
+   border: 4px solid rgb(83, 63, 42);
+   margin: 1rem;
+   padding: 1rem;
+   box-shadow: 3px 3px 3px black;
+}
 
- #Apresentacao {
-    background-color: #E9967A;
+#Nome {
 
+   text-shadow: 2px 2px 2px black;
+   background-color: #E9967A;
+   font-size: 70px;
+   border-radius: 25px 25px 0px 0px;
+   text-align: center;
+   border: 2px solid white;
+   padding: 1rem 1rem;
+   font-family: "Englebert", cursive;
+   box-shadow: 3px 3px 3px black;
+}
 
- }
+#Apresentacao {
+   
+   background-color: #E9967A;
+   border: 2px solid white;
+   padding: 20px;
+   box-shadow: 1px 1px 1px rgb(0, 0, 0);
+  
+}
 
- #Formacao {
-    background-color: #E9967A;
+#Formacao {
+   background-color: #E9967A;
+   padding-left: 1rem;
+   box-shadow: 3px 3px 3px black;
 
- }
+}
 
- #Experiencia,
- ul,
- li {
-    background-color: #E9967A;
+#Experiencia,
+ul,
+li {
+   background-color: #E9967A;
+   padding-left: 1rem;
+   box-shadow: 3px 3px 3px black;
 
- }
+}
 
- #competenciaTecnicas {
-    background-color: #E9967A;
+#competenciaTecnicas {
+   background-color: #E9967A;
+   padding-left: 1rem;
+   box-shadow: 3px 3px 3px black;
+   
 
- }
+}
 
- #CompetenciasSociosEmocionais {
-    background-color: #E9967A;
+#CompetenciasSociosEmocionais {
+   background-color: #E9967A;
+   padding-left: 1rem;
+   box-shadow: 3px 3px 3px black;
 
- }
+}
 
- #linguas {
-    background-color: #E9967A;
-
- }
+#linguas {
+   background-color: #E9967A;
+   padding-left: 1rem;
+   box-shadow: 3px 3px 3px black;
+}
