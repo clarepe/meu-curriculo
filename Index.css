@@ -59,7 +59,8 @@ h2 {
    
    background-color: #E9967A;
    border: 2px solid white;
-   padding: 20px;
+   /* padding: 20px; */
+
    box-shadow: 1px 1px 1px rgb(0, 0, 0);
   
 }
