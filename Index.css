@@ -47,37 +47,49 @@ h2 {
    padding: 1rem;
    box-shadow: 3px 3px 3px black;
 }
-
+ 
 #Nome {
    font-weight: bold;
    text-shadow: 2px 2px 2px black;
    background-color: #E9967A;
-   font-size: 70px;
+   font-size: 100px;
    border-radius: 25px 25px 0px 0px;
    text-align: center;
    border: 2px solid white;
    padding: 1rem 1rem;
    font-family: "Englebert", cursive;
    box-shadow: 3px 3px 3px black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
-img
+
+#Nome h1 {
+   flex: 1;
+}
+
+#Nome img {
+   flex: 1;
+   max-width: 200px;
+   max-height: 200px;
+   padding-right: 32px;
+}
+ 
 #Apresentacao {
    
-   display: flex;
+   
    background-color: #E9967A;
-   border: 2px solid white;
+   
    padding:23px;
    padding: top 12px;
-   justify-content: space-evenly;
-
-   
+     
 
 }
 
 #Formacao {
    background-color: #E9967A;
    padding-left: 1rem;
- 
+
 
 }
 
@@ -87,15 +99,15 @@ ul,
 li {
    background-color: #E9967A;
    padding-left: 1rem;
-  
+ 
 
 }
-
+#Experiencias{border: 2px solid white;}
 #competenciaTecnicas {
    background-color: #E9967A;
    padding-left: 1rem;
    box-shadow: 3px 3px 3px black;
-
+  
 
 }
 
@@ -103,11 +115,13 @@ li {
    background-color: #E9967A;
    padding-left: 1rem;
    box-shadow: 3px 3px 3px black;
-
+   
 }
 
 #linguas {
    background-color: #E9967A;
    padding-left: 1rem;
    box-shadow: 3px 3px 3px black;
+ 
 }
+#rodape{ background-color: #E9967A;}
