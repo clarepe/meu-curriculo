@@ -120,8 +120,9 @@ li {
 
 #linguas {
    background-color: #E9967A;
-   padding-left: 1rem;
+   padding-left: 2rem;
    box-shadow: 3px 3px 3px black;
  
 }
-#rodape{ background-color: #E9967A;}
+#rodape{ background-color: #E9967A;
+   padding-left: 2rem;}
