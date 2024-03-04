@@ -23,7 +23,7 @@ body {
    width: 80vw;
    margin: auto;
    background-color: var(--cor-secundaria); 
-   color: white;
+   color: rgb(255, 255, 255);
    padding: 0%;
    margin-top: 22px;
    font-weight: 200px;
@@ -62,7 +62,7 @@ h2 {
    font-size: 100px;
    border-radius: 25px 25px 0px 0px;
    text-align: center;
-   border: 2px solid white;
+   border: 2px solid rgb(80, 54, 54);
    padding: 1rem 1rem;
    font-family: "Englebert", cursive;
    box-shadow: 3px 3px 3px black;
