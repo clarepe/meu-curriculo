@@ -13,7 +13,7 @@
 }
 :root { 
 
-   --cor-primaria: #3498db; 
+   --cor-primaria: #4a7693; 
  
    --cor-secundaria: #2ecc71; 
  
@@ -94,7 +94,9 @@ h2 {
    background-color: var(--cor-primaria); 
    padding-left: 1rem;
    box-shadow: 3px 3px 3px black;
-
+   
+   border-collapse: separate;
+   border: 2px solid  rgb(208, 255, 0);
 }
 
 #Experiencia,
@@ -102,6 +104,7 @@ ul,
 li {
    background-color: var(--cor-primaria); 
    padding-left: 1rem;
+   
 
 
 }
