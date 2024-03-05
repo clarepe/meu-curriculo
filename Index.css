@@ -101,9 +101,8 @@ h2 {
 }
 
 #Experiencia{border: 2px solid #d0ff00;}
-#Experiencia,
-ul,
-li {
+
+#Experiencia,ul,li {
    background-color: var(--cor-primaria);
    padding-left: 1rem;
 
