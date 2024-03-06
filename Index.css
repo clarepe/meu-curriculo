@@ -17,6 +17,9 @@
    --cor-primaria: #4a7693;
 
    --cor-secundaria: #2ecc71;
+   --texto-secundario: "McLaren", sans-serif; 
+   
+   
 
 }
 
@@ -36,7 +39,7 @@ p {
 }
 
 h2 {
-   font-family: "McLaren", sans-serif;
+   font-family:var(--texto-secundario);
    font-size: 1.5rem;
    font-weight: 300;
    text-transform: uppercase;
@@ -78,10 +81,13 @@ h2 {
 }
 
 #Nome img {
-   flex: 1;
-   max-width: 200px;
-   max-height: 200px;
-   padding-right: 32px;
+   flex: 2;
+   max-width: 100px;
+   max-height: 100px;
+   padding-right: 1px;
+   border-radius:195px ;
+   box-shadow: 3px 3px 3px #000000;
+   margin-right: 30px;
 }
 
 #Apresentacao {
@@ -89,14 +95,15 @@ h2 {
    background-color: var(--cor-primaria);
    padding: 23px;
    padding: top 12px;
+   text-align: center;
+   font-family: "McLaren", sans-serif;
+   text-decoration: none;
+
+
 
 }
 
 #Formacao {
-   /* background-color: var(--cor-primaria); */
-   /* padding-left: 1rem; */
-   /* box-shadow: 3px 3px 3px #000000; */
-   /* border-collapse: separate; */
    border: 2px solid var(--cor-primaria);
 }
 
@@ -104,6 +111,7 @@ h2 {
 
 #Experiencia,ul,li {
    background-color: var(--cor-primaria);
+   
    padding-left: 1rem;
 
 
@@ -113,8 +121,9 @@ h2 {
 #Experiencias {
    border: 2px solid white;
 }
-
+#competenciaTecnicas {border: 2px solid #d0ff00;}
 #competenciaTecnicas {
+   border: 2px solid #d0ff00;
    background-color: var(--cor-primaria);
    padding-left: 1rem;
    box-shadow: 3px 3px 3px black;
@@ -126,6 +135,7 @@ h2 {
    background-color: var(--cor-primaria);
    padding-left: 1rem;
    box-shadow: 3px 3px 3px #000000;
+
 
 }
 
@@ -150,14 +160,11 @@ h2 {
    padding: .3rem 1rem;
    margin-top: 1rem;
    border-radius: 10px;
-}
-.Continue-lendo a {
    text-decoration: none;
    color: #ffffff;
    font-size: 80%;
-   
-   
 }
+
 article h1 { /* h1 descendente de article */
    font-size: 3rem;
    font-weight: bold; /* bold = 700 */
@@ -173,30 +180,58 @@ article h1 { /* h1 descendente de article */
    text-align: center;
    
 }
+.lista-tags li{
+   display: inline-block;
+   padding: 5px;
+   border-radius: 4px;
+   border-color:#d0ff00;
+   margin: 5px;
+   background-color:var(--cor-secundaria);
+   font-family: "McLaren", sans-serif;
+   /* background-color: #6c6c5e; */
+   /* box-shadow: 3px 3px 3px rgb(255, 250, 250); */
+}
 #formacaos{
+   border: 2px solid #d0ff00;
    display: flex;
    justify-content: space-between;
+   background-color: #6c6c5e;
+   
+}
+#formacaos p{
+   
+   margin-left: 12px;
+   margin-right: 12px;
 }
 article h2 {/* h2 descendente de article */
    font-size: 1rem;
-   font-weight: 60; /* demi-bold (quase negrito) */
-   margin: 0 0 1rem;
+   font-weight: 30px; /* demi-bold (quase negrito) */
+   text-align: center;
+   margin-left: 1rem;
+   margin-right: 1rem;
    background-color: var(--cor-primaria); 
-   padding-left: 2rem;
+   /*  */
    box-shadow: 3px 3px 3px #100a0a;
 }
-.autor{font-style:oblique;
+.autor{
+   font-style:oblique;
    font-weight: 600;
-
-}
+   margin-left: 9px;
+   margin-right: 9px;
+  
+   }
 .data{
    font-style:oblique;
 }
 article p {
    text-align: justify;
    margin-bottom: 1rem;
+   height: 150px;
+   overflow: hidden;
+   
 }
 
 article {
    width: 30%; /* 30% do pai (section id="tecnologias") */
+
 }
