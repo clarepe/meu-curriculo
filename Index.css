@@ -15,19 +15,38 @@
 :root {
 
    --cor-primaria: #4a7693;
-
    --cor-secundaria: #2ecc71;
    --texto-secundario: "McLaren", sans-serif; 
-   
-   
-
 }
+/* essa parte é estudo sobre temas usando variaveis */
+[data-tema="dark"]{
+
+   --planoFundo:#353535;
+   --corPrimariaTexto:#111013;
+   --corFundoTags:#353535;
+   --corSecundarioTexto:#353535;
+   --corFundoTags:#bebebe;
+   --corDoTitulosecao:#f8f8ab;
+   --corBordaPadao:#fad000;
+}
+[data-tema="light"]{
+   --planoFundo:#f2f2f2;
+   --corPrimariaTexto:#ffffff;
+   --corFundoTags:#9d4646;
+   --corSecundarioTexto:#7c9ae7;
+   --corFundoTags:#a60303;
+   --corDoTitulosecao:#e1955a;
+   --corBordaPadao:#374148;
+}
+
+
+
 
 body {
    width: 80vw;
    margin: auto;
-   background-color: var(--cor-secundaria);
-   color: rgb(255, 255, 255);
+   background-color: var(--planoFundo);
+   color: var(--corPrimariaTexto);
    padding: 0%;
    margin-top: 22px;
    font-weight: 200px;
@@ -44,20 +63,20 @@ h2 {
    font-weight: 300;
    text-transform: uppercase;
    margin: 1rem 0;
-   border: 1px solid #ffffff;
+   border: 1px solid var( --corBordaPadao);
    padding: 1rem;
 }
 
 .tituloSecao {
    font-weight: bold;
-   background-color: #f8f8ab;
-   color: black;
+   background-color: var(--corDoTitulosecao);
+   color: var(--corPrimariaTexto);
    border-radius: 23px;
    font-size: 1rem;
    border: 4px solid #533f2a;
    margin: 1rem;
    padding: 1rem;
-   box-shadow: 3px 3px 3px black;
+   box-shadow: 3px 3px 3px var(--corDoTitulosecao);
 }
 
 #Nome {
@@ -70,7 +89,7 @@ h2 {
    border: 2px solid rgb(80, 54, 54);
    padding: 1rem 1rem;
    font-family: "Englebert", cursive;
-   box-shadow: 3px 3px 3px #000000;
+   box-shadow: 3px 3px 3px var(--corBordaPadao);
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -81,13 +100,15 @@ h2 {
 }
 
 #Nome img {
-   flex: 2;
+   flex: 1;
    max-width: 100px;
    max-height: 100px;
    padding-right: 1px;
    border-radius:195px ;
    box-shadow: 3px 3px 3px #000000;
    margin-right: 30px;
+  
+
 }
 
 #Apresentacao {
@@ -161,7 +182,7 @@ h2 {
    margin-top: 1rem;
    border-radius: 10px;
    text-decoration: none;
-   color: #ffffff;
+   color: var(--corPrimariaTexto);
    font-size: 80%;
 }
 
@@ -169,7 +190,7 @@ article h1 { /* h1 descendente de article */
    font-size: 3rem;
    font-weight: bold; /* bold = 700 */
    background-color: #f8f8ab;
-   color: black;
+   color: var(--corPrimariaTexto);
    border-radius: 2px;
    font-size: 1rem;
    border: 2px solid #533f2a;
