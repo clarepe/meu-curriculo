@@ -38,10 +38,6 @@
    --corDoTitulosecao:#e1955a;
    --corBordaPadao:#374148;
 }
-
-
-
-
 body {
    width: 80vw;
    margin: auto;
@@ -51,12 +47,10 @@ body {
    margin-top: 22px;
    font-weight: 200px;
 }
-
 p {
    line-height: 1.5;
    margin: 1rem 0;
 }
-
 h2 {
    font-family:var(--texto-secundario);
    font-size: 1.5rem;
@@ -66,7 +60,6 @@ h2 {
    border: 1px solid var( --corBordaPadao);
    padding: 1rem;
 }
-
 .tituloSecao {
    font-weight: bold;
    background-color: var(--corDoTitulosecao);
@@ -78,7 +71,6 @@ h2 {
    padding: 1rem;
    box-shadow: 3px 3px 3px var(--corDoTitulosecao);
 }
-
 #Nome {
    font-weight: bold;
    text-shadow: 2px 2px 2px #000000;
@@ -94,11 +86,9 @@ h2 {
    justify-content: space-between;
    align-items: center;
 }
-
 #Nome h1 {
    flex: 1;
 }
-
 #Nome img {
    flex: 1;
    max-width: 100px;
@@ -110,7 +100,6 @@ h2 {
   
 
 }
-
 #Apresentacao {
 
    background-color: var(--cor-primaria);
@@ -123,11 +112,9 @@ h2 {
 
 
 }
-
 #Formacao {
    border: 2px solid var(--cor-primaria);
 }
-
 #Experiencia{border: 2px solid #d0ff00;}
 
 #Experiencia,ul,li {
@@ -138,7 +125,6 @@ h2 {
 
 
 }
-
 #Experiencias {
    border: 2px solid white;
 }
@@ -151,7 +137,6 @@ h2 {
 
 
 }
-
 #CompetenciasSociosEmocionais {
    background-color: var(--cor-primaria);
    padding-left: 1rem;
@@ -159,14 +144,12 @@ h2 {
 
 
 }
-
 #linguas {
    background-color: var(--cor-primaria);
    padding-left: 2rem;
    box-shadow: 3px 3px 3px #000000;
 
 }
-
 #rodape {
    background-color: var(--cor-primaria);
    padding-left: 2rem;
@@ -175,7 +158,6 @@ h2 {
    display: flex;
    justify-content: space-between;
 }
-
 .Continue-lendo{
    background-color:var(--cor-primaria);
    padding: .3rem 1rem;
@@ -185,7 +167,6 @@ h2 {
    color: var(--corPrimariaTexto);
    font-size: 80%;
 }
-
 article h1 { /* h1 descendente de article */
    font-size: 3rem;
    font-weight: bold; /* bold = 700 */
@@ -251,7 +232,6 @@ article p {
    overflow: hidden;
    
 }
-
 article {
    width: 30%; /* 30% do pai (section id="tecnologias") */
 
